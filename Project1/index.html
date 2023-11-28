@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Cabin:ital@1&family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Css/style.css">
+    <style>
+        body{
+            font-family: 'Cabin', sans-serif;
+            margin:0px;
+            padding:0px; 
+            background: url('img//gym4.avif');
+            color:white;
+        }
+        .left{
+            display:inline-block;
+            /* border:2px solid red; */
+            position: absolute; /* parent header */
+            left:40px;
+            top:20px;
+        }
+        .left div{
+           line-height: 15px;
+            text-align: center;
+        }
+        .left img{
+            width:85px;
+            /* filter:invert(100%)  kalo ka sada r sada ka kalo */
+        }
+        .mid{
+            display:block;
+            width:40%;
+            margin:29px auto;
+            /* border: 2px solid green; */
+}
+        .right{
+            position: absolute; /* parent header */
+            right:38px;
+            top:30px;
+            display:inline-block; 
+            /* border:2px solid yellow ; */
+        }
+        .nabvar{
+            display:inline-block;
+        }
+        .navbar li{
+            display:inline-block;
+            font-size: 20px;
+        }
+        .navbar li a{
+            color:white;
+            text-decoration: none;
+            padding:44px 18px;
+        }
+        .navbar li a:hover,.navbar li a.active{
+
+           text-decoration: underline;
+           color:bisque;
+        }
+        .btn{
+            font-family: 'Cabin', sans-serif;
+            margin:0px 9px;
+            color:white;
+            background-color: black;
+            padding:4px 4px;
+            border:2px solid grey;
+            border-radius: 10px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+        .btn:hover{
+            background-color: rgb(177, 167, 167);
+        }
+        .container{
+            border:2px solid rgb(224, 233, 224);    
+            margin: 90px 70px;
+            padding: 70px;
+            width: 30%;
+            border-radius: 28px;
+        }
+        .form_group input{
+        font-family: 'Cabin', sans-serif;
+        text-align: center;
+        display: block;
+        width: 400px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 8px auto;
+        font-size: 25px;
+        border-radius: 8px;
+        }
+        .container h1 {
+        text-align: center;
+    }
+    .container button {
+        display: block;
+        width: 34%;
+        margin: 20px auto;
+    
+    }
+    </style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/gym.avif" alt="">
+            <div>Fitness Image</div>
+        </div>
+        <!-- midbox for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="" class="active">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Fitness Center</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+           <button class="btn">Call Us Now</button>
+           <button class="btn">Email Us</button>
+        </div>
+
+    </header>
+    <div class="container">
+       <h1>Join the best gym of Delhi now</h1>
+       <!-- jodi ai name a backend thake sakhane store hobe --> 
+       <form action="noaction.php"> 
+            <div class="form_group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form_group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form_group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form_group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <button class="btn">Submit</button>
+       </form>
+    </div>
+</body>
+</html>
