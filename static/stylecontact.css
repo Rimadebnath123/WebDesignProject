@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital@1&family=Libre+Baskerville:wght@700&family=Playfair+Display:ital@1&display=swap");
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+h3{
+    text-align:center;
+    margin:12px 0;
+}
+.container{
+    min-height: 70vh;
+    margin: 23px 0;
+    
+}
+.container h3{
+font-family:'Libre Baskerville';
+font-size:34px;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    /* width: 50%; */
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+.myInput{
+    font-size: 13px;
+    width: 40%;
+    padding: 9px;
+    margin: 5px;
+    border:2px solid rgb(173, 84, 84);
+    border-radius: 12px;
+    outline:none;
+
+}
+.btn{
+    padding: 8px 10px;
+    font-size: 15px;
+    border:2px solid black;
+    color:white;
+    background-color: red;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    margin: 16px;
+}

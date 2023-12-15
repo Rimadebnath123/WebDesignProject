@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital@1&family=Libre+Baskerville:wght@700&family=Playfair+Display:ital@1&display=swap");
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+#logo{
+    display: flex;
+    color: rgb(238, 230, 230);
+    align-items: center;
+    margin: 0 14px;
+    font-size: 24px;
+    margin-right: 30px;
+}
+#logo img{
+    height: 70px;
+    filter: invert(1);
+    border-radius: 15px;
+}
+#navbar{
+    position: relative;
+    background-color: #d43b3b;
+    font-family: 'Playfair Display';
+    padding: 10px, 14px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+     /* justify-content: center; */
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{ 
+    font-size: large;
+   text-decoration: none;
+    padding: 13px 20px;
+}
+#navbar li a:hover{
+    color: black;  
+}
+
+#introSection{
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Libre Baskerville';
+    font-size: 65px;
+    top:0px;
+    align-items: center;
+    background: center/cover no-repeat url("/static/bg.jpg") ;
+    height: 550px;
+    z-index: -1;
+    
+}
+#introSection div.small{
+    font-size: 52px;
+    padding: 5px;
+}
+#sponsorsSection{
+    font-size: large;
+    height: 310px;
+    background-color: #fbd6d6c7;
+}
+#sponsorsSection h1{
+    text-align: center;
+    padding: 12px;
+    font-family: 'Yeon Sung';
+}
+#sponsors{
+    height:161px;
+    margin: 30px 250px;
+    max-width: 1000px;
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.spImage{
+    height:80%;
+    margin: 20px;
+}
+
+#missionSection{
+    height: 300px;; 
+    width: 93%;
+    margin: auto;
+}
+
+#missionSection h2{
+    font-size: 36px;
+    font-family: 'Yeon Sung' ;
+    text-align: center;
+    padding-top: 10px;
+}
+ .card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px; 
+    width: 30%; 
+    margin: 10px 20px;;
+    height: 209px;
+    background-color: rgba(241, 181, 102, 0.549);
+}
+.card h3{
+    text-align: center;
+    margin:12px;
+}
+.card-box{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+
+}
+.card-img{
+    height:150px;
+    padding: 12 12px;
+}
+.card-img img{
+    height:inherit;
+    
+}
+.card-content{
+    padding: 0 10px;
+
+}
+.card-content p{
+    font-size: 19px;
+}
+#footer{
+    color: aliceblue;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    height: 60px;
+    display: flex;
+}
